@@ -28,3 +28,11 @@ PRODUCT_NAME := citrus_kuntao
 PRODUCT_BRAND := Lenovo
 PRODUCT_MANUFACTURER := Lenovo
 PRODUCT_RELEASE_NAME := kuntao
+
+# Citrus-CAF Maintainers
+PRODUCT_BUILD_PROP_OVERRIDES += \
+         DEVICE_MAINTAINERS="Subham (subhampadhi)"
+
+# CAF REVISION
+  PRODUCT_PROPERTY_OVERRIDES += \
+    ro.caf.branch=LA.UM.5.6.r1-05900-89xx.0
