@@ -16,6 +16,9 @@
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
 
+#CM_RAMDISK
+TARGET_USE_CM_RAMDISK := true
+
 # Architecture
 TARGET_BOARD_SUFFIX := _64
 TARGET_ARCH := arm64
