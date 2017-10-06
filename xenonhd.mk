@@ -15,8 +15,8 @@
 # Inherit device configuration
 $(call inherit-product, device/lenovo/kuntao/full_kuntao.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common XENONHD stuff.
+$(call inherit-product, vendor/xenonhd/config/common_full_phone.mk)
 
 # Boot animation
 TARGET_SCREEN_WIDTH := 1080
@@ -24,7 +24,9 @@ TARGET_SCREEN_HEIGHT := 1920
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := kuntao
-PRODUCT_NAME := lineage_kuntao
+PRODUCT_NAME := xenonhd_kuntao
 PRODUCT_BRAND := Lenovo
 PRODUCT_MANUFACTURER := Lenovo
 PRODUCT_RELEASE_NAME := kuntao
+
+ROOT_METHOD=magisk
