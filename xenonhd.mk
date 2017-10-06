@@ -30,3 +30,8 @@ PRODUCT_MANUFACTURER := Lenovo
 PRODUCT_RELEASE_NAME := kuntao
 
 ROOT_METHOD=magisk
+
+PRODUCT_PACKAGES += \
+    AdAway \
+    KernelAdiutor \
+    MiXplorer
